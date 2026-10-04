@@ -27,7 +27,18 @@ export default function Contact() {
   function handleChange(e) {
     const { name, value } = e.target;
     setFormData((prev) => ({ ...prev, [name]: value }));
+
+    // Clear this specific field's error the moment the user starts fixing it,
+  // instead of making them wait until they resubmit the whole form
+  if (errors[name]) {
+    setErrors((prev) => {
+      const updated = { ...prev };
+      delete updated[name];
+      return updated;
+    });
   }
+}
+ 
 
   // Basic validation — checks required fields and a simple email pattern
   function validate() {
@@ -42,23 +53,7 @@ export default function Contact() {
     if (!formData.message.trim()) newErrors.message = 'Message is required';
     return newErrors;
   }
-
-  function handleSubmit(e) {
-    e.preventDefault();
-    const validationErrors = validate();
-
-    if (Object.keys(validationErrors).length > 0) {
-      // Stop here and show errors instead of submitting
-      setErrors(validationErrors);
-      return;
-    }
-
-    // No backend yet, so we just confirm and redirect to Home —
-    // this will be replaced with a real API call in Assignment 2
-    alert('Thanks for reaching out! Redirecting you to Home.');
-    navigate('/');
-  }
-  function handleSubmit(e) {
+    function handleSubmit(e) {
   e.preventDefault();
   const validationErrors = validate();
 
@@ -75,7 +70,8 @@ export default function Contact() {
   // this will be replaced with a real API call in Assignment 2
   alert('Thanks for reaching out! Redirecting you to Home.');
   navigate('/');
- }
+}
+ 
 
   return (
     <div>
