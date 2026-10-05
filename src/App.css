@@ -103,3 +103,12 @@
   font-weight: bold;
   cursor: pointer;
 }
+
+/* About page photo: square crop, centered on the face */
+img[src="/profile-photo.jpg"] {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  object-position: center 20%;
+  border-radius: 50%;
+}

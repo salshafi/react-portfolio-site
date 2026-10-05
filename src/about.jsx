@@ -6,16 +6,18 @@
 export default function About() {
   return (
     <div>
-      {/* Page heading */}
-      <h2>About Me</h2>
+             {/* Page heading */}
+        <h2>About Me</h2>
 
-      {/* Profile photo — replace src with your actual headshot file
-          once it's added to the public/ or src/assets/ folder */}
-      <img
-        src="/profile-photo.jpg"
-        alt="Salman Shafi"
-        width="200"
-      />
+        {/* Legal name, shown as the rubric requires */}
+        <h3>Salman Shafi</h3>
+
+        {/* Profile photo, cropped to a circle in App.css */}
+        <img
+          className="profile-photo"
+          src="/profile-photo.jpg"
+          alt="Salman Shafi"
+        />
 
       {/* Short personal bio */}
       <p>
@@ -25,10 +27,10 @@ export default function About() {
         exploring how data and machine learning can solve real problems.
       </p>
 
-      {/* Resume link — required by the assignment.
+      {/* 
           Place the actual PDF in the public/ folder so this path works. */}
       <p>
-        <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+       <a href="/Salman_Shafi_Resume.pdf" target="_blank" rel="noopener noreferrer">
           View My Resume (PDF)
         </a>
       </p>
