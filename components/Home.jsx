@@ -15,7 +15,10 @@ export default function Home() {
         engineering. This site showcases my projects, background,
         and how to get in touch.
       </p>
-      <Link to="/about">Learn more about me →</Link>
+          {/* Mission statement */}
+         <p><strong>Mission:</strong> To build reliable, well-tested software and grow into an ML/AI engineer who solves real problems with data.</p>
+          <Link to="/about">Learn more about me →</Link>
+       
     </div>
   );
 }
