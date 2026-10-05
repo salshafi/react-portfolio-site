@@ -74,39 +74,57 @@ export default function Contact() {
  
 
   return (
-    <div>
+  
+    <div className="contact-page">
       <h2>Contact</h2>
 
-      {/* Static contact info, in addition to the form */}
-      <p>Email: salshafi44@gmail.com</p>
-      <p>LinkedIn: linkedin.com/in/salmanshafi44</p>
+      {/* Contact info panel (rubric 1i) */}
+      <div className="contact-info">
+        <p>
+          Email: <a href="mailto:salshafi44@gmail.com">salshafi44@gmail.com</a>
+        </p>
+        <p>
+          LinkedIn:{' '}
+          <a
+            href="https://linkedin.com/in/salmanshafi44"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            linkedin.com/in/salmanshafi44
+          </a>
+        </p>
+      </div>
 
-      <form onSubmit={handleSubmit}>
-        <div>
-          <label>First Name</label>
+      {/* noValidate lets our own error messages show instead of the browser's */}
+      <form className="contact-form" onSubmit={handleSubmit} noValidate>
+        <div className="form-field">
+          <label htmlFor="firstName">First Name</label>
           <input
+            id="firstName"
             type="text"
             name="firstName"
             value={formData.firstName}
             onChange={handleChange}
           />
-          {errors.firstName && <p style={{ color: 'red' }}>{errors.firstName}</p>}
+          {errors.firstName && <p className="form-error">{errors.firstName}</p>}
         </div>
 
-        <div>
-          <label>Last Name</label>
+        <div className="form-field">
+          <label htmlFor="lastName">Last Name</label>
           <input
+            id="lastName"
             type="text"
             name="lastName"
             value={formData.lastName}
             onChange={handleChange}
           />
-          {errors.lastName && <p style={{ color: 'red' }}>{errors.lastName}</p>}
+          {errors.lastName && <p className="form-error">{errors.lastName}</p>}
         </div>
 
-        <div>
-          <label>Phone</label>
+        <div className="form-field">
+          <label htmlFor="phone">Phone</label>
           <input
+            id="phone"
             type="tel"
             name="phone"
             value={formData.phone}
@@ -114,25 +132,28 @@ export default function Contact() {
           />
         </div>
 
-        <div>
-          <label>Email</label>
+        <div className="form-field">
+          <label htmlFor="email">Email</label>
           <input
+            id="email"
             type="email"
             name="email"
             value={formData.email}
             onChange={handleChange}
           />
-          {errors.email && <p style={{ color: 'red' }}>{errors.email}</p>}
+          {errors.email && <p className="form-error">{errors.email}</p>}
         </div>
 
-        <div>
-          <label>Message</label>
+        <div className="form-field">
+          <label htmlFor="message">Message</label>
           <textarea
+            id="message"
             name="message"
+            rows="5"
             value={formData.message}
             onChange={handleChange}
           />
-          {errors.message && <p style={{ color: 'red' }}>{errors.message}</p>}
+          {errors.message && <p className="form-error">{errors.message}</p>}
         </div>
 
         <button type="submit">Send</button>

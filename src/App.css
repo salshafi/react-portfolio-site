@@ -50,3 +50,56 @@
   background-color: #5b8def;
   color: white;
 }
+/* ---------- Contact page ---------- */
+.contact-page {
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+/* Bordered panel around the contact details */
+.contact-info {
+  border: 1px solid #3a3d45;
+  border-radius: 8px;
+  padding: 12px 20px;
+  margin-bottom: 24px;
+  text-align: left;
+}
+
+.contact-form {
+  text-align: left;
+}
+
+/* Each label sits above its input, full width */
+.form-field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: 16px;
+}
+
+.form-field input,
+.form-field textarea {
+  padding: 8px 10px;
+  border-radius: 6px;
+  border: 1px solid #3a3d45;
+  background-color: #1f2128;
+  color: inherit;
+  font: inherit;
+}
+
+.form-error {
+  color: #ff6b6b;
+  margin: 0;
+  font-size: 14px;
+}
+
+.contact-form button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  background-color: #5b8def;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
