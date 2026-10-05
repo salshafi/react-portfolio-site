@@ -4,7 +4,7 @@
 // requirement for a custom logo. No third-party logos used.
 
 import { NavLink } from 'react-router-dom';
-
+import '../src/App.css';
 // Nav items kept in an array so adding a page is a one-line change
 const navItems = [
   { path: '/', label: 'Home' },
