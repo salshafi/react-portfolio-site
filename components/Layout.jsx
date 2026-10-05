@@ -1,40 +1,41 @@
 // Layout.jsx
 // Shared header and navigation for every page, including a simple
 // custom logo (initials in a styled badge) per Assignment 1's
-// requirement for a custom logo — no third-party logos used.
+// requirement for a custom logo. No third-party logos used.
 
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
+
+// Nav items kept in an array so adding a page is a one-line change
+const navItems = [
+  { path: '/', label: 'Home' },
+  { path: '/about', label: 'About' },
+  { path: '/education', label: 'Education' },
+  { path: '/services', label: 'Services' },
+  { path: '/project', label: 'Project' },
+  { path: '/contact', label: 'Contact' },
+];
 
 export default function Layout() {
   return (
-    <div>
-      <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
-        {/* Custom logo: just initials in a styled circle */}
-        <div
-          style={{
-            width: '40px',
-            height: '40px',
-            borderRadius: '50%',
-            backgroundColor: '#5b8def',
-            color: 'white',
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            fontWeight: 'bold',
-            fontSize: '16px',
-          }}
-        >
-          SS
-        </div>
+    <header className="site-header">
+      <div className="brand">
+        {/* Custom logo: initials in a styled circle */}
+        <div className="logo">SS</div>
         <h1>My Portfolio</h1>
       </div>
 
-      <nav>
-        <Link to="/">Home</Link> | <Link to="/about">About</Link> |{' '}
-        <Link to="/education">Education</Link> | <Link to="/services">Services</Link> |{' '}
-        <Link to="/project">Project</Link> | <Link to="/contact">Contact</Link>
+      <nav className="main-nav">
+        {navItems.map((item) => (
+          <NavLink
+            key={item.path}
+            to={item.path}
+            end={item.path === '/'} // stops Home from staying active on every page
+            className={({ isActive }) => (isActive ? 'nav-link active' : 'nav-link')}
+          >
+            {item.label}
+          </NavLink>
+        ))}
       </nav>
-      <hr />
-    </div>
+    </header>
   );
 }
