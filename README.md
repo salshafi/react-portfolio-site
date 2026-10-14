@@ -1,16 +1,50 @@
-# React + Vite
+# Salman Shafi – Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A multi-page personal portfolio built with React, for the Web Application Development course (COMP229) at Centennial College. It will grow into a full-stack site with a Node/Express back end and an AI chat feature as I learn them.
 
-Currently, two official plugins are available:
+**Live site:** [add your Netlify link here]
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Pages
 
-## React Compiler
+- **Home**: introduction
+- **About**: background and resume download
+- **Education**: program and courses
+- **Projects**: my featured work, with links to public GitHub repos
+- **Services**: what I can build
+- **Contact**: validated contact form (front end only for now)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech Stack
 
-## Expanding the ESLint configuration
+React 19 · Vite · React Router · JavaScript · CSS · deployed on Netlify
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Run Locally
+
+```bash
+git clone https://github.com/salshafi/react-portfolio-site.git
+cd react-portfolio-site
+npm install
+npm run dev
+```
+
+Then open the address shown in the terminal (usually `http://localhost:5173`).
+
+Other scripts: `npm run build` (production build), `npm run lint`.
+
+## Project Structure
+
+```
+components/   Layout and Home components
+public/       Images and resume PDF
+src/          Page components (about, education, project, services, contact)
+MainRouter.jsx  Route definitions
+```
+
+## Roadmap
+
+- Node/Express back end with MongoDB and user login
+- AI chat box that answers questions about my projects
+- Resume page with versions by field
+
+## Contact
+
+salshafi44@gmail.com · [LinkedIn](https://www.linkedin.com/in/salmanshafi44) · [GitHub](https://github.com/salshafi)
