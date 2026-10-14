@@ -12,7 +12,7 @@ const strengths = [
   },
   {
     title: 'Data & Machine Learning',
-    text: 'Python, pandas, NumPy and scikit-learn for analysis and predictive pipelines.',
+    text: 'Python, NumPy and scikit-learn for data analysis and simple machine learning models.',
   },
   {
     title: 'Quality & Tooling',

@@ -25,14 +25,13 @@ export const projects = [
     featured: true,
   },
   {
-    id: 'ai-analytics-sandbox',
-    title: 'AI Analytics Sandbox',
+    id: 'ai-course-labs',
+    title: 'AI Course Labs (COMP 237)',
     thumb: 'AI',
     summary:
-      'Python experiments with AI search algorithms and a predictive analytics pipeline built with pandas, NumPy and scikit-learn.',
-    tech: ['Python', 'pandas', 'NumPy', 'scikit-learn'],
-    repo: 'https://github.com/salshafi/ai-analytics-sandbox',
-    featured: true,
+      'Coursework in Python: AI search algorithms (BFS, DFS, UCS and A*) and a scikit-learn logistic regression demo with a train/test split and confusion matrix, run on simulated data.',
+    tech: ['Python', 'NumPy', 'scikit-learn'],
+    note: 'Course work, kept in a private repository. Code available on request.',
   },
   {
     id: 'gradetracker',
@@ -51,5 +50,6 @@ export const projects = [
       "The site you're viewing, built with React and React Router and deployed on Netlify. Next: a Node/Express back end and an AI chat feature.",
     tech: ['React', 'Vite', 'React Router', 'Netlify'],
     repo: 'https://github.com/salshafi/react-portfolio-site',
+    featured: true,
   },
 ];

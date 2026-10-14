@@ -13,7 +13,7 @@ ABOUT SALMAN SHAFI
 PROJECTS
 - Job Application Tracker API: a FastAPI backend that tracks job applications in a relational SQL database. Uses SQLAlchemy and Pydantic validation, has 8 automated pytest tests, and runs continuous integration with GitHub Actions. Tech: Python, FastAPI, SQLAlchemy, SQLite, pytest. Code: https://github.com/salshafi/job-tracker-api
 - Java Transaction Engine: a transaction-processing engine in Java that stores transactions in SQLite through JDBC and processes them concurrently with an ExecutorService thread pool. Code: https://github.com/salshafi/java-transaction-engine
-- AI Analytics Sandbox: Python experiments with AI search algorithms and a predictive analytics pipeline using pandas, NumPy and scikit-learn. Code: https://github.com/salshafi/ai-analytics-sandbox
+- AI Course Labs (COMP 237): coursework in Python with AI search algorithms (BFS, DFS, UCS and A*) and a scikit-learn logistic regression demo run on simulated data. The code is in a private repository and available on request.
 - GradeTrackerApi: an academic tracking system built with ASP.NET Core and Entity Framework Core, with a normalized three-table relational schema and a JavaScript front end. The code is in a private repository and available on request.
 - This portfolio site: built with React, Vite and React Router, deployed on Netlify. Code: https://github.com/salshafi/react-portfolio-site
 
