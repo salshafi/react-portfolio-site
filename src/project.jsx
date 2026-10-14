@@ -1,8 +1,8 @@
 // project.jsx
 // This component renders the "Projects" page of the portfolio site.
-// It showcases real, verifiable work — each project links to its
-// public GitHub repo so visitors can check the code directly,
-// per Assignment 1's requirement of 3+ projects with descriptions.
+// It showcases real, verifiable work. Projects with a public GitHub
+// repo link to it so visitors can check the code directly, per
+// Assignment 1's requirement of 3+ projects with descriptions.
 
 export default function Project() {
   return (
@@ -11,8 +11,8 @@ export default function Project() {
       <h2>My Projects</h2>
 
       {/* Each project is a self-contained block: image, description,
-          and a GitHub link — easy to add more projects later without
-          restructuring the page */}
+          and (when the repo is public) a GitHub link — easy to add
+          more projects later without restructuring the page */}
 
       <div>
         <img src="/project-gradetracker.png" alt="GradeTrackerApi" width="300" />
@@ -20,12 +20,9 @@ export default function Project() {
         <p>
           A full-stack academic tracking system built with ASP.NET Core
           and SQL Server. I engineered the RESTful API using Entity
-          Framework Core, designed a normalized three-table database
-          schema, and am currently working on deploying it to Azure.
+          Framework Core and designed a normalized three-table database
+          schema.
         </p>
-        <a href="https://github.com/salshafi/GradeTrackerApi" target="_blank" rel="noopener noreferrer">
-          View on GitHub
-        </a>
       </div>
 
       <div>
