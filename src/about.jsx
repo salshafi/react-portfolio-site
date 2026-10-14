@@ -30,8 +30,7 @@ export default function About() {
       {/* 
           Place the actual PDF in the public/ folder so this path works. */}
       <p>
-       <a href="/Salman_Shafi_Resume.pdf" target="_blank" rel="noopener noreferrer">
-          View My Resume (PDF)
+<a href="/Salman_Shafi_Resume_FullStack.pdf" target="_blank" rel="noopener noreferrer">          View My Resume (PDF)
         </a>
       </p>
     </div>
