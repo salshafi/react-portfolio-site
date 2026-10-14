@@ -2,7 +2,7 @@
 
 A multi-page personal portfolio built with React, for the Web Application Development course (COMP229) at Centennial College. It will grow into a full-stack site with a Node/Express back end and an AI chat feature as I learn them.
 
-**Live site:** [add your Netlify link here]
+**Live site:** [https://salmanshafi-portfolio.netlify.app](https://salmanshafi-portfolio.netlify.app)
 
 ## Pages
 
