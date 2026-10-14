@@ -8,6 +8,7 @@ import Project from './src/project';
 import Services from './src/services';
 import Layout from './components/Layout';
 import Footer from './components/Footer';
+import ChatWidget from './components/ChatWidget';
 
 // Jump back to the top whenever the visitor opens a different page
 function ScrollToTop() {
@@ -34,6 +35,7 @@ const MainRouter = () => {
         </Routes>
       </main>
       <Footer />
+      <ChatWidget />
     </>
   );
 };
