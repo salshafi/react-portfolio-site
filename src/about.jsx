@@ -3,7 +3,7 @@
 
 const facts = [
   ['Program', 'Software Engineering Technology (AI), Centennial College'],
-  ['Location', 'Toronto, ON'],
+  ['Location', 'Ottawa, ON'],
   ['Looking for', 'Winter 2027 co-op (January 2027 start)'],
   ['Focus', 'Full-stack development, data and ML/AI'],
 ];
@@ -18,10 +18,10 @@ export default function About() {
           <img className="profile-photo" src="/profile-photo.jpg" alt="Salman Shafi" />
           <h3>Salman Shafi</h3>
           <div className="btn-row center">
-            <a href="/Salman_Shafi_Resume_FullStack.pdf" target="_blank" rel="noopener noreferrer" className="btn btn-primary">
+            <a href="/Salman_Shafi_Resume.pdf" target="_blank" rel="noopener noreferrer" className="btn btn-primary">
               View Resume (PDF)
             </a>
-            <a href="/Salman_Shafi_Resume_FullStack.pdf" download className="btn btn-ghost">
+            <a href="/Salman_Shafi_Resume.pdf" download className="btn btn-ghost">
               Download
             </a>
           </div>
