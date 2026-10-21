@@ -1,6 +1,6 @@
 # Salman Shafi – Portfolio Website
 
-A multi-page personal portfolio built with React, for the Web Application Development course (COMP229) at Centennial College. It will grow into a full-stack site with a Node/Express back end and an AI chat feature as I learn them.
+A multi-page personal portfolio built with React, for the Web Application Development course (COMP229) at Centennial College. It has a contact form handled by Netlify Forms and an AI chat assistant that answers questions about my projects through a Netlify serverless function calling Gemini.
 
 **Live site:** [https://salmanshafi-portfolio.netlify.app](https://salmanshafi-portfolio.netlify.app)
 
@@ -11,7 +11,7 @@ A multi-page personal portfolio built with React, for the Web Application Develo
 - **Education**: program and courses
 - **Projects**: my featured work, with links to public GitHub repos
 - **Services**: what I can build
-- **Contact**: validated contact form (front end only for now)
+- **Contact**: validated contact form, submitted through Netlify Forms
 
 ## Tech Stack
 
@@ -41,8 +41,7 @@ MainRouter.jsx  Route definitions
 
 ## Roadmap
 
-- Node/Express back end with MongoDB and user login
-- AI chat box that answers questions about my projects
+- Learn Node/Express and MongoDB to build a back end with user login
 - Resume page with versions by field
 
 ## Contact

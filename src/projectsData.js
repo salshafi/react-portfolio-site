@@ -9,7 +9,7 @@ export const projects = [
     title: 'Job Application Tracker API',
     image: '/project-jobtracker.png',
     summary:
-      'A FastAPI backend that tracks job applications in a relational SQL database. Built with SQLAlchemy and Pydantic validation, covered by 8 automated pytest tests, and set up with continuous integration through GitHub Actions.',
+      'A FastAPI backend that tracks job applications in a relational SQL database. Built with SQLAlchemy and Pydantic validation, with an AI assistant endpoint using Gemini, covered by 27 automated pytest tests that run through GitHub Actions.',
     tech: ['Python', 'FastAPI', 'SQLAlchemy', 'SQLite', 'pytest', 'GitHub Actions'],
     repo: 'https://github.com/salshafi/job-tracker-api',
     featured: true,
@@ -40,7 +40,7 @@ export const projects = [
     title: 'This Portfolio Site',
     image: '/project-portfolio.png',
     summary:
-      "The site you're viewing, built with React and React Router and deployed on Netlify. Next: a Node/Express back end and an AI chat feature.",
+      "The site you're viewing, built with React, Vite and React Router and deployed on Netlify. It has a contact form handled by Netlify Forms and an AI chat assistant that answers questions about my projects through a serverless function.",
     tech: ['React', 'Vite', 'React Router', 'Netlify'],
     repo: 'https://github.com/salshafi/react-portfolio-site',
     featured: true,
