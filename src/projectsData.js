@@ -31,8 +31,8 @@ export const projects = [
     title: 'GradeTrackerApi',
     image: '/project-gradetracker.png',
     summary:
-      'An academic tracking system built with ASP.NET Core and Entity Framework Core, with a normalized three-table relational schema and a JavaScript front end.',
-    tech: ['C#', 'ASP.NET Core', 'Entity Framework Core'],
+      'A C# ASP.NET Core Web API for tracking grades, using Entity Framework Core with SQLite, plus a JavaScript front end that lists and adds grades.',
+    tech: ['C#', 'ASP.NET Core', 'Entity Framework Core', 'SQLite'],
     note: 'Code is in a private repository and available on request.',
   },
   {
