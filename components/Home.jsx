@@ -8,11 +8,11 @@ import { projects } from '../src/projectsData';
 const strengths = [
   {
     title: 'Full-Stack Development',
-    text: 'React front ends with Python/FastAPI or C#/ASP.NET Core back ends, backed by SQL databases.',
+    text: 'React and JavaScript front ends; Python/FastAPI and C#/ASP.NET Core back ends, backed by SQL databases',
   },
   {
-    title: 'Data & Machine Learning',
-    text: 'Python, NumPy and scikit-learn for data analysis and simple machine learning models.',
+    title: 'Backend & APIs',
+    text: 'REST APIs with validation and automated tests in Python/FastAPI and C#/ASP.NET Core, plus Java with JDBC and thread pools.',
   },
   {
     title: 'Quality & Tooling',
@@ -36,12 +36,12 @@ export default function Home() {
           </h2>
           <p className="hero-role">Software Engineering Technology (AI) student at Centennial College</p>
           <p className="hero-lead">
-            I build reliable, well-tested software and I'm growing into an ML/AI engineer who
-            solves real problems with data. This site shows my projects, background and how to reach me.
+               I build reliable, well-tested backend and full-stack software, with a growing interest in AI. 
+               This site shows my projects, background and how to reach me.
           </p>
           <div className="btn-row">
             <Link to="/project" className="btn btn-primary">View projects</Link>
-            <a href="/Salman_Shafi_Resume_FullStack.pdf" target="_blank" rel="noopener noreferrer" className="btn btn-ghost">
+            <a href="/Salman_Shafi_Resume.pdf" target="_blank" rel="noopener noreferrer" className="btn btn-ghost">
               Resume (PDF)
             </a>
             <Link to="/contact" className="btn btn-ghost">Get in touch</Link>
