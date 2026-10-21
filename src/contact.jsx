@@ -95,7 +95,7 @@ export default function Contact() {
             </li>
             <li>
               <span>Location</span>
-              Toronto, ON
+              Ottawa, ON
             </li>
           </ul>
         </aside>
