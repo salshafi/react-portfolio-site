@@ -29,9 +29,8 @@ export default function About() {
 
         <div className="about-main">
           <p>
-            Hi, I'm Salman Shafi. I'm a Software Engineering Technology (AI) student at
-            Centennial College, working toward a career in ML/AI engineering. I enjoy building
-            full-stack applications and exploring how data and machine learning can solve real problems.
+            Hi, I'm Salman Shafi. I'm a Software Engineering Technology (AI) student at Centennial College (online), based in Ottawa. I enjoy building backend and full-stack applications: REST APIs in Python and C#, a multithreaded Java app with JDBC, and React front ends, all with automated tests where I can. I'm also learning more about AI and machine learning through my coursework. 
+            I'm looking for a 4-month co-op from January to April 2027, remote or in Ottawa.
           </p>
           <p>
             I like projects I can test and verify: APIs with automated tests, databases with a
