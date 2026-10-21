@@ -29,7 +29,7 @@ export default function Home() {
         <img className="hero-photo" src="/profile-photo.jpg" alt="Salman Shafi" />
         <div className="hero-text">
           <span className="pill">
-            <span className="dot" /> Seeking a Winter 2027 co-op · Toronto, ON
+            <span className="dot" /> Seeking a Winter 2027 co-op · Remote or Ottawa, ON
           </span>
           <h2 className="hero-title">
             Hi, I'm <span className="grad">Salman Shafi</span>
