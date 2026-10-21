@@ -17,7 +17,7 @@ export const projects = [
   {
     id: 'java-transaction-engine',
     title: 'Java Transaction Engine',
-    thumb: 'Java',
+    image: "/project-java-engine.pngg",
     summary:
       'A transaction-processing engine in Java that stores transactions in SQLite through JDBC and processes them concurrently with an ExecutorService thread pool.',
     tech: ['Java', 'JDBC', 'SQLite'],
