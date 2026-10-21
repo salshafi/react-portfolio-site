@@ -24,15 +24,8 @@ export const projects = [
     repo: 'https://github.com/salshafi/java-transaction-engine',
     featured: true,
   },
-  {
-    id: 'ai-course-labs',
-    title: 'AI Course Labs (COMP 237)',
-    thumb: 'AI',
-    summary:
-      'Coursework in Python: AI search algorithms (BFS, DFS, UCS and A*) and a scikit-learn logistic regression demo with a train/test split and confusion matrix, run on simulated data.',
-    tech: ['Python', 'NumPy', 'scikit-learn'],
-    note: 'Course work, kept in a private repository. Code available on request.',
-  },
+  
+  
   {
     id: 'gradetracker',
     title: 'GradeTrackerApi',
