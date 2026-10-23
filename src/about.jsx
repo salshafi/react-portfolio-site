@@ -4,7 +4,7 @@
 const facts = [
   ['Program', 'Software Engineering Technology (AI), Centennial College'],
   ['Location', 'Ottawa, ON'],
-  ['Looking for', 'Winter 2027 co-op (January 2027 start)'],
+  ['Looking for', 'Winter 2027 co-op (January to April 2027, flexible start)'],
   ['Focus', 'Full-stack development, data and ML/AI'],
 ];
 
